@@ -3,8 +3,8 @@ css parsing helpers
 
 ## API
 
-### .each(input, separators, cb(value, type))
+`list.each(input, separators, cb(value, type))`
 
-### .map(input, separators, cb(value, type, prev, prevType))
+`list.map(input, separators, cb(value, type, prev, prevType))`
 
-### .split(input, separators, last)
+`list.split(input, separators, last)`

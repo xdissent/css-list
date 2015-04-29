@@ -1,4 +1,4 @@
-# css-list
+# css-list [![Build Status](https://travis-ci.org/TrySound/css-list.svg)](https://travis-ci.org/TrySound/css-list)
 css parsing helpers
 
 ## API

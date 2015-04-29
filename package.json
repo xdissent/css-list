@@ -1,0 +1,28 @@
+{
+  "name": "css-list",
+  "version": "0.0.1",
+  "description": "css parsing helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrySound/css-list"
+  },
+  "keywords": [
+    "css",
+    "parse",
+    "list",
+    "postcss"
+  ],
+  "author": "Bogdan Chadkin <trysound@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrySound/css-list/issues"
+  },
+  "homepage": "https://github.com/TrySound/css-list",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}

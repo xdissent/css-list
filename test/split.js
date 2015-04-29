@@ -2,7 +2,7 @@ var test = require('tape'),
 	list = require('..'),
 	split = list.split;
 
-test('css-list.split parse', function (t) {
+test('css-list.split', function (t) {
 	var spaces = [' ', '\n', '\t'],
 		comma = [','];
 

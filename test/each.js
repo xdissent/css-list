@@ -40,7 +40,7 @@ var tests = [{
 	]
 }];
 
-test('css-list.each parse', function (t) {
+test('css-list.each', function (t) {
 	tests.forEach(function (item) {
 		var result = [];
 		each(item.fixtures, item.separators, function () {

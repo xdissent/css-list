@@ -2,7 +2,7 @@ var test = require('tape'),
 	list = require('..'),
 	map = list.map;
 
-test('css-list.map parse', function (t) {
+test('css-list.map', function (t) {
 	t.equal(map(' a b ', [' '], function (val, type, prev, prevType) {
 		return 'val';
 	}), ' val val ');

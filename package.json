@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/TrySound/css-list",
   "devDependencies": {
+    "tap-spec": "^3.0.0",
     "tape": "^4.0.0"
   }
 }

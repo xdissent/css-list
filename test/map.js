@@ -17,5 +17,9 @@ test('css-list.map', function (t) {
 		}
 	}), ' a, quote "hello, world!" ');
 
+	t.equal(map('\t\t&:hover  , &:active ', [','], function (val) {
+		return 'hello';
+	}), '\t\thello  , hello ')
+
 	t.end();
 });

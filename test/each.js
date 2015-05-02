@@ -38,6 +38,17 @@ var tests = [{
 		['b', null],
 		[' ', 'separator']
 	]
+}, {
+	message: 'splits list by comma with spaces',
+	fixtures: ' a, "hello, world!",\t b ',
+	separators: [','],
+	result: [
+		[' a', null],
+		[',', 'separator'],
+		[' "hello, world!"', 'quote'],
+		[',', 'separator'],
+		['\t b ', null],
+	]
 }];
 
 test('css-list.each', function (t) {

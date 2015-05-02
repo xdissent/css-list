@@ -1,6 +1,6 @@
 {
   "name": "css-list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "css parsing helpers",
   "main": "index.js",
   "scripts": {

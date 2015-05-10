@@ -3,7 +3,10 @@ css parsing helpers
 
 ## API
 
-### list.each(input, separators, cb)
+If `separators` is not specified, it will default to
+`[' ', '\n', '\t', ',', '/']`.
+
+### list.each(input[, separators], cb)
 
 ```js
 list.each('"50%" 50%/100% calc(100% + 20%)', [' ', '/'], function (value, type) {
@@ -14,7 +17,7 @@ list.each('"50%" 50%/100% calc(100% + 20%)', [' ', '/'], function (value, type) 
 });
 ```
 
-### list.map(input, separators, cb)
+### list.map(input[, separators], cb)
 
 ```js
 list.map('"50%" 50%/100% calc(100% + 20%)', [' ', '/'], function (value, type, prevValue, prevType) {
@@ -25,7 +28,7 @@ list.map('"50%" 50%/100% calc(100% + 20%)', [' ', '/'], function (value, type, p
 // quote 50%/100% func
 ```
 
-### list.split(input, separators, last)
+### list.split(input[, separators], last)
 
 ```js
 // space

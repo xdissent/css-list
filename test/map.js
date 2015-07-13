@@ -21,5 +21,10 @@ test('css-list.map', function (t) {
 		return 'hello';
 	}), '\t\thello  , hello ')
 
+
+	t.equal(map("'$'", function (val) {
+		return val;
+	}), "'$'")
+
 	t.end();
 });
